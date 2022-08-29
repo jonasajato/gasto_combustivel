@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class KM_L {
+    public static void main(String[] args) {
+        //Escrever uma função que retorne o consumo medio de um automovel sendo fornecida a distancia
+        //total percorrida pelo automovel e o total de combustivel gasto.
+
+        double a1, b1, c1;
+        System.out.println("Digite a distancia percorrida na viagem: ");
+        Scanner entrada = new Scanner(System.in);
+        a1 = entrada.nextDouble();
+        System.out.println("Digite quanto combustivel foi gasto na viagem: ");
+        b1 = entrada.nextDouble();
+
+        c1 = a1/b1;
+        System.out.println("A media km/l do seu carro eh: " + c1);
+
+        entrada.close();
+
+    }
+}
